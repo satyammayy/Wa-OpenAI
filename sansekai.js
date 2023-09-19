@@ -74,16 +74,11 @@ module.exports = sansekai = async (client, m, chatUpdate, store) => {
           m.reply(`*Whatsapp Bot OpenAI*
             
 *(ChatGPT)*
-Cmd: ${prefix}ai 
-Tanyakan apa saja kepada AI. 
+Cmd: ${prefix}ai
+To Access Chat GPT
 
-*(DALL-E)*
-Cmd: ${prefix}img
-Membuat gambar dari teks
-
-*(Source Code Bot)*
-Cmd: ${prefix}sc
-Menampilkan source code bot yang dipakai`)
+*Created by Satyam*
+_<3 Support me_`)
           break;
         case "ai": case "openai": case "chatgpt": case "ask":
           try {
